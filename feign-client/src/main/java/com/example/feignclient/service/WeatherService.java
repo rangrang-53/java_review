@@ -31,8 +31,6 @@ public class WeatherService {
                 .ny(126)
                 .build();
 
-            log.info("요청 데이터: {}", dataRequestDTO);
-
             String response = weatherClient.getWeather(
                     dataRequestDTO.getServiceKey(),
                     dataRequestDTO.getNumOfRows(),
