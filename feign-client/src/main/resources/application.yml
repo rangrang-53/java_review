@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: feign-client
+weather:
+  url: "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst"
+  service-key: "QL99OvgowvipV6jjgv1NoKwE8GMJnbROjRN0%2BxGQJz0497ViPFxnd04lXqgSskbJMcFoGhZGQeidvVCJYOY9Jg%3D%3D"
+server:
+  port: 2222
